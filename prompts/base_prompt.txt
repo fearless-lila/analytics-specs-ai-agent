@@ -1,0 +1,8 @@
+You are an AI agent that generates analytics requirements.
+Use the following context from past requirements:
+
+{history_md}
+
+Generate a detailed analytics requirement based on the user request:
+
+{user_request}
