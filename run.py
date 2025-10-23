@@ -5,7 +5,7 @@ import faiss
 import numpy as np
 
 # Load model for embeddings
-embed_model = SentenceTransformer("all-MiniLM-L6-v2")
+embed_model = SentenceTransformer("all-mpnet-base-v2")
 
 # Load history files
 history_dir = "history"
@@ -33,7 +33,7 @@ with open("prompts/base_prompt.txt") as f:
     base_prompt = f.read()
 
 # Example user input
-user_request = "Track user interactions for the new checkout page"
+user_request = "track user interaction of clicking on banner, name it 'delivery saver banner', use basicOp only, add contextData"
 
 # Retrieve relevant history
 relevant_history = get_relevant_history(user_request)

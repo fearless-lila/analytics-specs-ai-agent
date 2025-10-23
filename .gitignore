@@ -10,7 +10,3 @@ venv/
 
 # Logs
 *.log
-
-# History or output files
-history/
-generated/

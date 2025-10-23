@@ -6,3 +6,8 @@ Use the following context from past requirements:
 Generate a detailed analytics requirement based on the user request:
 
 {user_request}
+
+--- OUTPUT ---
+Write a new markdown requirement document with concise sections, clean formatting, and no unnecessary repetition.
+
+Keep the document clean avoid adding additional text.
