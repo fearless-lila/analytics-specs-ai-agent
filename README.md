@@ -43,7 +43,7 @@ analytics-requirements-ai-agent/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/analytics-requirements-ai-agent.git
+git clone https://github.com/fearless-lila/analytics-specs-ai-agent
 cd analytics-requirements-ai-agent
 ```
 
@@ -60,7 +60,7 @@ Update `config/settings.yaml` with your preferred:
 
 ### 4. Run the Agent
 ```bash
-python src/main.py
+python run.py
 ```
 
 ---
@@ -91,12 +91,6 @@ python src/main.py
 - Integrate with Jira or Confluence for auto-documentation  
 - Implement evaluation metrics for generated requirement quality  
 - Support fine-tuning on domain-specific datasets  
-
----
-
-## 📄 License
-
-MIT License © 2025 [Your Name]
 
 ---
 
